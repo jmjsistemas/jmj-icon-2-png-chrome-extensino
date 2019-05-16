@@ -1,8 +1,10 @@
 { "manifest_version": 2,
   "name": "JMJ Icon2PNG",
-  "description": "Copy icon!",
-  "version": "6.0",
-
+  "description": "JMJ Extension to copy link from flaticon to use in custom app!",
+  "version": "2.2.0",
+"icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
   "background": {
     "persistent": false,
     "scripts": ["background.js"]
@@ -15,5 +17,5 @@
     "default_title": "JMJ Icon2PNG"
   },
 
-  "permissions": ["activeTab"]
+  "permissions": ["https://www.flaticon.com/*"]
 }
