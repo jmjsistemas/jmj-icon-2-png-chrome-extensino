@@ -1,0 +1,14 @@
+{
+  "name": "JMJ Icon2PNG",
+  "version": "4.0",
+  "browser_action": {
+    "default_title": "popup_title"
+  },
+  "description": "Display the page title for copying",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2
+}

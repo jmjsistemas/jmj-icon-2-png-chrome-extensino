@@ -1,0 +1,10 @@
+{
+    "name": "JMJ Icon2PNG",
+    "version": "1.0",
+    "description": "Copy icon!",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ['background.js']
+    },
+        "persistent": false
+}

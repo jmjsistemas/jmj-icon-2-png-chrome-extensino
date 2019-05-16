@@ -1,0 +1,21 @@
+{
+  "name": "JMJ Icon2PNG",
+  "version": "1.6",
+  "description": "Copy icon!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "tabs",
+    "background",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_url>"],
+    "js": ["contentScript.js"]
+  }]
+}

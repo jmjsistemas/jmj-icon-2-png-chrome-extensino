@@ -1,0 +1,1 @@
+(function(){window.prompt('Page title:', document.title)})()
